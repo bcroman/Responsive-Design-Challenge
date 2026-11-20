@@ -59,6 +59,10 @@ header h1 {
   display: block;
 }
 
+.second {
+  background-color: #222;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .intro {
@@ -70,5 +74,19 @@ header h1 {
   .intro p,
   .buttons {
     width: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .image-box,
+  .content-text {
+    width: 100%;
+  }
+
+  .second {
+    flex-direction: column-reverse;
   }
 }
