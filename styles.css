@@ -28,6 +28,10 @@ header h1 {
   color: #333;
 }
 
+.hamburger {
+  display: none;
+}
+
 /* Intro Style */
 .intro {
   background-color: #ddd;
@@ -124,6 +128,20 @@ footer p {
 @media (max-width: 600px) {
   header h1 {
     font-size: 28px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #333;
   }
 
   .content-text {
