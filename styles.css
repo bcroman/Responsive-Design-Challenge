@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Style */
+header {
+  background-color: #aaa;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+/* Intro Style */
+.intro {
+  background-color: #ddd;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.intro p {
+  width: 50%;
+}
+
+.buttons {
+  width: 50%;
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
