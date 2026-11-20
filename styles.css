@@ -37,3 +37,38 @@ header h1 {
   margin-bottom: 10px;
   padding: 10px;
 }
+
+/* Image and Text Section */
+.content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.image-box,
+.content-text {
+  width: 50%;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .intro p,
+  .buttons {
+    width: 100%;
+  }
+}
