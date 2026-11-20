@@ -59,11 +59,34 @@ header h1 {
   display: block;
 }
 
+/* Senond Section */
 .second {
   background-color: #222;
 }
 
-/* Responsive */
+/* Third Section */
+.third {
+  background-color: #111;
+}
+
+.third img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Mobile Responsive */
 @media (max-width: 600px) {
   .intro {
     flex-direction: column;
